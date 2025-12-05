@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+joblib
+numpy
+pandas
+azure-eventhub
+scikit-learn
+xgboost
+azure-storage-blob
+jinja2
