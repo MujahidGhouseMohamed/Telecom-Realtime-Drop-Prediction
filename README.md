@@ -3,6 +3,8 @@
 
 A production-style real-time telecom analytics system that predicts call drop probability from streaming network telemetry.
 
+Live Demo: http://telecomapp-g0dqfna5fbayfvbf.centralindia-01.azurewebsites.net
+
 ---
 
 ##  System Architecture
@@ -10,7 +12,6 @@ A production-style real-time telecom analytics system that predicts call drop pr
 ```
 Mobile Network → Producer → Kafka → Mirror to Azure Event Hub → ADLS (Bronze/Silver/Gold)
         ↘──── FastAPI ML Inference API → Web UI (Live Prediction)
-Live Demo: http://telecomapp-g0dqfna5fbayfvbf.centralindia-01.azurewebsites.net
 ```
 
 ---
